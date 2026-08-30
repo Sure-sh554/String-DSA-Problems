@@ -15,6 +15,7 @@ public class FirstNonRepeatingCharacter {
         for (char ch : str.toCharArray()) {
             if (map.get(ch) == 1) {
                 System.out.println("First non-repeating character: " + ch);
+
                 break;
             }
         }
